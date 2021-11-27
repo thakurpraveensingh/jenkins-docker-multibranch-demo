@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        echo "builidng the application"
+        echo "builidng the application with commit pushes"
       }
     }
     
